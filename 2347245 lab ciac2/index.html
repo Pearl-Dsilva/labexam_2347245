@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="html" href="article.html">
+    <title>Learn Well</title>
+</head>
+<body>
+    <!-- <header> Learn Well </header> -->
+    <nav class="navbar navbar-expand-lg" style="background-color: bisque;">
+        <button class="collapse navbar-collapse" data-bs-toggle="collapse" data-bs-target="#navTab"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse" id="navTab">
+            <ul class="navbar-nav me-auto mb-2 ms-md-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categories of articles</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link btn btn-outline-dark" ></button>
+                    <button class="nav-link btn btn-secondary btn-close" ></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- article listings  -->
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-md-4 m-2" style="background-color: bisque; border-radius: 5px;">
+                <img class="m-2" src="images/articles.jpg" alt="tumbnail" style="height: 300px; width: 300px; border-radius: 3px;">
+                <p><strong>Title</strong></p>
+                    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi, modi consequatur incidunt eaque expedita ducimus placeat cupiditate odit voluptates ut voluptatum doloribus ipsam esse sequi nemo tempore consectetur necessitatibus.</p>
+                <button class="nav-link btn btn-outline-light p-2">Read More</button>
+            </div>
+            <div class="col-md-4 m-2" style="background-color: bisque; border-radius: 5px;">
+                <img src="images/articles.jpg" alt="tumbnail" style="height: 300px; width: 300px; border-radius: 3px;">
+                <p><strong>Title</strong></p>
+                    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi, modi consequatur incidunt eaque expedita ducimus placeat cupiditate odit voluptates ut voluptatum doloribus ipsam esse sequi nemo tempore consectetur necessitatibus.</p>
+                <button class="nav-link btn btn-outline-light p-2">Read More</button>
+            </div>
+            <div class="col-md-4 m-2" style="background-color: bisque; border-radius: 5px;">
+                <img src="images/articles.jpg" alt="tumbnail" style="height: 300px; width: 300px; border-radius: 3px;">
+                <p><strong>Title</strong></p>
+                    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi, modi consequatur incidunt eaque expedita ducimus placeat cupiditate odit voluptates ut voluptatum doloribus ipsam esse sequi nemo tempore consectetur necessitatibus.</p>
+                <button class="nav-link btn btn-outline-light p-2">Read More</button>
+            </div>
+        
+            
+        </div>
+    </div>
+ 
+    <!-- Profile -->
+    <div class="container">
+        <div class="row m-5 style_profile" >
+            <div class="col-md-4 col-lg-4" ></div>
+            <div>
+                <p><strong>About Author</strong></p>
+                <img src="images/avatar.jpg" alt="profile avatar" style="height: 100px; width: 100px; border-radius: 3px;">
+                <p>Username: Bob</p>
+                <p>Bio: Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quae. Ex incidunt commodi fugiat unde in magni fugit labore reiciendis, harum distinctio. Vitae molestias repellendus veritatis ducimus totam maiores dolore!</p>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer" style="background-color: bisque;" class="d-flex">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="col-md-8">
+                    <a href="# "><span class="fab fa-instagram-logo">Check our work</span></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <form>
+                        <p>Subcription Form:</p>
+                        <input class="m-3" type="text" name="name" id="contact_name" placeholder="Name">
+                        <input class="m-3" type="ema" name="email" id="contact_email" placeholder="Email">
+                        <textarea class="m-3" name="details" id="details" placeholder="Enter your requirement" rows="5"></textarea>
+                    </form>
+                    <button class="btn btn-outline-dark">Submit</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
